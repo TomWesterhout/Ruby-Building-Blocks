@@ -12,7 +12,7 @@ def substrings(input, dictionary)
 			end
 		end
 	end
-	p result.sort
+	p result
 end
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 input = gets.chomp
