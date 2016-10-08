@@ -1,4 +1,3 @@
-dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 def substrings(input, dictionary)
 	result = {}
 	inp_spl = input.split(" ")
@@ -13,8 +12,8 @@ def substrings(input, dictionary)
 			end
 		end
 	end
-	p result.sort
+	return result.sort
 end
-
+dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 input = gets.chomp
 substrings(input, dictionary)
