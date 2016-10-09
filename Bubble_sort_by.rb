@@ -11,5 +11,5 @@ def bubble_sort_by(input, &compare)
 	puts input
 end
 compare = Proc.new {|a, b| a.length <=> b.length}
-input = ["hi", "hey", "hello"]
+input = gets.chomp.split(" ")
 bubble_sort_by(input, &compare)
